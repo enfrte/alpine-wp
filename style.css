@@ -1,0 +1,46 @@
+/*
+Theme Name: AlpineWpBasic
+Theme URI: https://linefeed.neocities.org
+Author: LineFeed
+Author URI: https://linefeed.neocities.org
+Description: Here's a basic header for wp themes. In case you ever want to make a semi wp headless version. 
+Version: 1.0
+License: MIT
+Tags: enfrte
+*/
+
+body { /* CSS grid - Single column, 3 parts */
+	margin: 0;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "header" "section" "footer";
+}
+
+.item-header {
+	grid-area: header;
+}
+
+.item-section {
+	grid-area: section;
+}
+
+.item-footer {
+	grid-area: footer;
+}
+
+.dont-break-out { /* Take care of those long URLs that break out of containers */ 
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	-ms-word-break: break-all;
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}

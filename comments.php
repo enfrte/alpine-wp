@@ -1,0 +1,3 @@
+<?php 
+
+// Fetch comments here?
