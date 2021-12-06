@@ -2,6 +2,8 @@
 
 A very simple site using headless WordPress and AlpineJS on the frontend.
 
+Demo: http://codinginthecold.byethost5.com/ 
+
 ## Ingredients 
 
 Uses AlpineJS, the [WP GraphQL Wordpress plugin](https://www.wpgraphql.com/), and Tachyons CSS.
