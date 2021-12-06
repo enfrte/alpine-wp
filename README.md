@@ -1,6 +1,6 @@
 # alpine-wp
 
-A very simple headless WordPress using AlpineJS on the frontend
+A very simple site using headless WordPress and AlpineJS on the frontend.
 
 ## Ingredients 
 
